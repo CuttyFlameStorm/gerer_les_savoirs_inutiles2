@@ -1,0 +1,87 @@
+/* input{
+	width:500px;
+}
+li{
+    cursor: pointer;
+}
+.savoir
+{
+    font-size: xx-large;
+    margin: 5px;
+}
+.infos
+{
+    font-size: x-small;
+    margin: 5px;
+} */
+
+/* -------------------------------------------------------------- */
+/* Styles pour le conteneur principal */
+
+main {
+    padding: 50px;
+}
+/* -------------------------------------------------------------- */
+#divSaisie {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles pour les étiquettes et les champs de saisie */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #7c0c28;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styles pour le bouton Ajouter */
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Styles pour la liste ordonnée */
+  #olListeSavoir {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styles pour les éléments de la liste */
+  #olListeSavoir li {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  /* Styles pour les en-têtes de la liste */
+  #olListeSavoir li h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  #olListeSavoir li h2 {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
